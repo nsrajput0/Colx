@@ -1053,9 +1053,10 @@ requestNotificationPermission();
             // Check for admin privileges
             const newsUploadForm = document.getElementById('newsUploadForm');
             const adminEmails = [
-                "user1@gmail.com",
-                "singhrajputnitesh937@gmail.com",
-                "user3@gmail.com"
+                "admin1@gmail.com",
+                "admin2@gmail.com",
+                "admin3@gmail.com",
+                "admin4@gmail.com"
             ];
             const userEmail = currentUser.email.toLowerCase().trim();
             const isAdmin = adminEmails.map(e => e.toLowerCase().trim()).includes(userEmail);
